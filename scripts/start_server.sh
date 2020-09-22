@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /home/centos/my-app-1.0-SNAPSHOT.jar &
+java -jar /home/centos/helloworld-0.0.1-SNAPSHOT.jar &
