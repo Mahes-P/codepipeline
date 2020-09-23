@@ -4,6 +4,10 @@ files:
 - source: /
   destination: /home/centos  
 hooks:
+  BeforeInstall:
+    - location: install_dependencies.sh
+      timeout: 300
+      runas: root
   ApplicationStop:
     - location: stop_server.sh
       timeout: 300
